@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.masterFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-height: 100vh;
+}
+
+.masterFlex .leftGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 645px;
+  position: relative;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+.masterFlex .leftGallery .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 215px;
+}
+
+.masterFlex .leftGallery .image img {
+  display: block;
+}
+
+.bodyLogo {
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  height: 180px;
+}
+
+.headerInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 385px;
+  background-color: #000;
+  color: #ffff;
+}
+
+.headerInfo .headerText {
+  padding: 20px;
+}
+
+.headerInfo .programInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.headerInfo .programInfo span:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+.rightGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rightGallery .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 215px;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+.rightGallery .image img {
+  display: block;
+}

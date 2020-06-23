@@ -1,0 +1,26 @@
+.masterFlex {
+  display: flex;
+  flex-direction: row;
+  max-height: 100vh;
+  .leftGallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 645px;
+    position: relative;
+    filter: brightness(60%);
+    .image {
+      display: flex;
+      width: 215px;
+      img {
+        display: block;
+      }
+    }
+  }
+}
+
+.bodyLogo {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    height: 180px;
+}

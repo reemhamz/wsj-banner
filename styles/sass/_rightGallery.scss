@@ -1,0 +1,12 @@
+.rightGallery {
+  display: flex;
+  flex-direction: column;
+  .image {
+    display: flex;
+    width: 215px;
+    filter: brightness(60%);
+    img {
+      display: block;
+    }
+  }
+}
