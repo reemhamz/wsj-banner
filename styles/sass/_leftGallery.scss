@@ -1,17 +1,16 @@
 .masterFlex {
   display: flex;
   flex-direction: row;
+  min-height: 50vw;
   .leftGallery {
     display: flex;
     flex-wrap: wrap;
     background-color: red;
     position: relative;
-    width: 50vw;
-    height: 100vh;
+    min-width: 50vw;
     .image {
       filter: brightness(60%);
       width: 25vw;
-      display: flex;
       position: relative;
       img {
         position: absolute;
@@ -29,7 +28,7 @@
 
 .bodyLogo {
   position: absolute;
-  bottom: 50%;
-  left: 5%;
-  height: 180px;
+  bottom: 41%;
+  left: 10%;
+  height: 150px;
 }
