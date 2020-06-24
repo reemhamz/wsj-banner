@@ -227,7 +227,7 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: red;
+  background-color: black;
   position: relative;
   min-width: 50vw;
 }
@@ -319,19 +319,19 @@ h2 {
 }
 
 .imageFive {
-  background-image: url(assets/image5.png);
+  background-image: url(../assets/image5.png);
 }
 
 .imageSix {
-  background-image: url(assets/image6.png);
+  background-image: url(../assets/image6.png);
 }
 
 .imageSeven {
-  background-image: url(assets/image7.png);
+  background-image: url(../assets/image7.png);
 }
 
 .imageEight {
-  background-image: url(assets/image8.png);
+  background-image: url(../assets/image8.png);
 }
 
 .image {
